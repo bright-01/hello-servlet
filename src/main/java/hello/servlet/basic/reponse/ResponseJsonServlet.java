@@ -28,5 +28,6 @@ public class ResponseJsonServlet extends HttpServlet {
         String result = objectMapper.writeValueAsString(helloData);
         response.getWriter().write(result);
 
+
     }
 }
