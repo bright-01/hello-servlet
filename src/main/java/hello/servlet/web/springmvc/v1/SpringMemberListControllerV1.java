@@ -7,10 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
-import java.util.Map;
 
 @Controller
-public class SpringMemberListControllerV3 {
+public class SpringMemberListControllerV1 {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
 
